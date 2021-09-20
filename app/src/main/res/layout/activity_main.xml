@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7ADC8539"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter Your First Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btact2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFEB3B"
+        android:gravity="center_horizontal"
+        android:text="Activity 2"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9800"
+        app:iconTint="#CDDC39" />
+
+    <Button
+        android:id="@+id/btact3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal"
+        android:text="Activity 3"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9800" />
+</androidx.appcompat.widget.LinearLayoutCompat>
